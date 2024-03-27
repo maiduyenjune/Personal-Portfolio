@@ -721,6 +721,10 @@ textarea {
         font-weight: 700;
     }
 
+    div.cursors {
+        display: none;
+    }
+
 
 }
 
