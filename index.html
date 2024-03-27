@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS RESET - it resets some of the browsers's default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css">
+    </link>
+    <!-- CSS EXTERNAL -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </link>
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Web Page</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- NAVIGATION BAR FOR MOBILE -->
+            <div class="d-flex nav-mobile">
+                <a href="/index.html"> <img class="logo" src="/img/icon-layout.png" /></a>
+                <div class="dropdown menu-hamburger1">
+                    <button class="dropbtn"> <img class="icon-menu" src="/img/icon-menu.png" alt="menu-hamburger icon"
+                            width="40" height="40"></button>
+                    <div class="dropdown-content">
+                        <a href="/about.html">About</a>
+                        <a href="/work.html">Work</a>
+                        <a href="/contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <!-- NAVIGATION BAR FOR DESKTOP -->
+            <ul class="nav-title">
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/work.html">Work</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero-sec d-flex flex-column gap-3" id="homepage">
+            <div class="hero-sec1">
+                <div class="hero-font d-flex flex-column">
+                    <h1 class="combine mb-0" id="play">Untie<br> the knot</br></h1>
+                </div>
+                <p class="intro">Hi I am June! I use empathy, curiosity and design to create simple and effective
+                    solutions to complex
+                    problems
+                </p>
+                <div class="video-container"> <video id="myVideo" data-hover="pattern #1">
+                        <source src="img/g.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div>
+                    <div class="sm-title">
+                        <p>june nguyen</p>
+                        <p>Design is problem solving</p>
+                        <p>Product designer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cursors">
+            </div>
+            <div class="border-here"></div>
+            <div>
+                <p class="section-title2">Work</p>
+                <div class="gridProject">
+                    <a href="/project/locket.html">
+                        <div class="project d-flex flex-column gap-3"> <img src="img/Locket/iPhone 14 Pro, PSD_.png"
+                                class="imgPrj" />
+                            <p class="project-name"> Locket Widget</p>
+                            <p class="heading2">UX case study</p>
+                        </div>
+                    </a>
+                    <a href="/project/personal.html">
+                        <div class="project d-flex flex-column gap-3"> <img src="img/personal/Image0001.png"
+                                class="imgPrj" />
+                            <p class="project-name"> Portfolio Website</p>
+                            <p class="heading2">Web Design</p>
+                        </div>
+                    </a>
+                    <a href="/project/nature.html">
+                        <div class="project d-flex flex-column gap-3"> <img src="img/naturCycle/Mockup.png"
+                                class="imgPrj" />
+                            <p class="project-name"> NaturCycle</p>
+                            <p class="heading2">UX case study</p>
+                        </div>
+                    </a>
+                    <a href="/project/blanche.html">
+                        <div class="project d-flex flex-column gap-3"> <img src="img/blanche/Blanche_Brand Book.png"
+                                class="imgPrj" />
+                            <p class="project-name"> Blanche</p>
+                            <p class="heading2">Branding & Strategy</p>
+
+                        </div>
+                    </a>
+                    <a href="/project/stamp.html">
+                        <div class="project d-flex flex-column gap-3"> <img src="img/stamp/9.jpg" class="imgPrj" />
+                            <p class="project-name"> Stamp Collection</p>
+                            <p class="heading2">Graphic Design</p>
+                        </div>
+                    </a>
+
+                    <a href="/project/3D.html">
+                        <div class="project d-flex flex-column gap-3"> <video controls autoplay loop
+                                src="img/3D staging-Camera.mp4" class="imgPrj"></video>
+                            <p class="project-name"> Drinking Hub - 3D</p>
+                            <p class="heading2">3D Staging</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href="/work.html"><button class="seemore">See more</button></a>
+
+            <!-- FEATURE SECTION -->
+            <section class="feature" id="section1">
+                <div>
+                    <h3 class="section-title mt-5"> Delivering good designs</h3>
+                    <h3 class="section-title line2">Combining various disciplines</h3>
+                </div>
+                <p class="feature-p">
+                    I provide a diverse skill set across various disciplines that enables me to elevate UI/UX design to
+                    new heights.
+                </p>
+                <!-- FEATURE CONTENT -->
+                <div class="feature-grid-container" id="section2">
+                    <article>
+                        <img class="feature-icon" src="/img/icon-thumbs-up.png" alt="icon thumb up" />
+                        <h4 class="mt-3">UI/UX</h4>
+                        <p> Crafting intuitive interfaces backed by thorough research to understand their need and boost
+                            user engagement.
+                        </p>
+
+                    </article>
+                    <article>
+                        <img class="feature-icon icon1" src="/img/icon-zap-off.png" alt="icon zap-off" />
+                        <h4 class="mt-3">Graphic Design</h4>
+                        <p>Transform ideas into visually stunning designs for effective communication.
+                        </p>
+
+                    </article>
+                    <article>
+                        <img class="feature-icon icon2" src="/img/icon-briefcase.png" alt="icon-briefcase" />
+                        <h4 class="mt-3">Branding & Strategy</h4>
+                        <p>Define brand identity, values, and visuals for impactful campaigns.
+                        </p>
+
+                    </article>
+                    <article>
+                        <img class="feature-icon icon3" src="/img/icon-linkedin.png" alt="icon-linkedin" />
+                        <h4 class="mt-3">3D & Motion Graphic</h4>
+                        <p>Create immersive experiences with captivating 3D visuals and dynamic motion graphics.
+                        </p>
+
+                    </article>
+                </div>
+            </section>
+    </main>
+    <video loop autoPlay muted class="skillVideo">
+        <source src="img/skill2.mp4" type="video/mp4" />
+    </video>
+    <!-- IMAGE GRID -->
+    <!-- <div class="knot">
+        <p></p>
+        <img src="img/Vector 5.png" class="img-knot1" />
+        <img src="img/Ellipse 1.png" class="img-knot" />
+    </div> -->
+    <footer id="section4">
+        <!-- DESKTOP FOOTER -->
+        <section class="desktop-footer">
+            <div class="right-side-footer">
+                <div>
+                    <p class="footer-title">FOLLOW ME</p>
+                    <div>
+                        <a href="https://www.linkedin.com/in/jdng/"> <img class="fb-icon" width=30px
+                                src="img/87390.png" /></a>
+                        <a href="https://www.linkedin.com/in/jdng/"> <img src="img/icon-linkedin-1.png" /></a>
+                        <a href="https://www.behance.net/duynmai6"> <img width=30px src="img/145799.png" /></a>
+                    </div>
+                </div>
+                <div>
+                    <p class="footer-title">INFORMATION</p>
+                    <div class="footer-grid">
+                        <div>
+                            <a href="about.html">
+                                <p>About me</p>
+                            </a>
+                            <a href="contact.html">
+                                <p>Get in Touch</p>
+                            </a>
+                        </div>
+                        <p>Resume</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-side-footer">
+                <div>
+                    <p class="footer-title">CONTACT ME</p>
+                    <h4>tmnd5603@gmail.com</h4>
+                </div>
+
+                <!-- MOBILE FOOTER -->
+                <section>
+                    <p>Copyright © 2024 • June Nguyen
+                    </p>
+                    <p> All rights reserved</p>
+                    <p>Code by June Nguyen
+                    </p>
+                </section>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
