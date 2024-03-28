@@ -742,6 +742,9 @@ textarea {
         display: none;
     }
 
+    .resume {
+        display: none;
+    }
 
 }
 
